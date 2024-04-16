@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Suka Suka abang aja</title>
         <!-- menghubungkan css ke html -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./src/style.css">
     </head>
     <body>
         <header>
             <!-- ini logo -->
             <div class="logo">
-                <img src="./assets/Logo.svg" alt="">
+                <a href="#">
+                    <img src="./src/assets/Logo.svg" alt="">
+                </a>
             </div>
             <!-- this is navigation bar -->
             <nav>
@@ -24,9 +26,27 @@
                             <li><a href="https://instagram.com/nasa" target="_blank">Nasa</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <div id="search-bar">
+                            <input type="text"><button>Search</button>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
         
+        <main>
+            <div id="content">
+                
+                <div id="result">
+                    <article>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
     </body>
 </html>
