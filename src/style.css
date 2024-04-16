@@ -62,7 +62,12 @@ ul li ul {
     /* left: 0; */
     right: 340px;
     display: none;
-    background-color: #f8bdf8;
+    background-color: #ac5fac;
+}
+ul li a#navbtn{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10%;
 }
 ul li:hover > ul,
 ul li ul:hover {
@@ -84,8 +89,12 @@ ul li ul:hover {
     height: 32px;
     padding: 0 20px;
     border: none;
-    background-color: lightblue;
-}
+    background-color: rgb(242, 155, 226);
+}#search-bar button:hover {
+    background-color: #9c5f9c;}
+    
+
+
 
 
 main {
